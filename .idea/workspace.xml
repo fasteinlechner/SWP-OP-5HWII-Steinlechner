@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9177bb1-6fe6-456f-8ae5-c17dc905bb7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/1.Aufgabe-Lotto/lotto_loesung2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.Aufgabe-Lotto/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.Aufgabe-Lotto/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,13 +27,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/fstei/OneDrive/Dokumente/Fabian/HTL/5.Klasse/SWP-Rubner/SWP-OP-5HWII-Steinlechner&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/fstei/OneDrive/Dokumente/Fabian/HTL/5.Klasse/SWP-Rubner/SWP-OP-5HWII-Steinlechner/2.Aufgabe-Poker"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python.lotto_loesung2">
     <configuration name="lotto_loesung2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SWP-OP-5HWII-Steinlechner" />
