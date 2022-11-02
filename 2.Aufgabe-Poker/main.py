@@ -10,7 +10,7 @@ def generate_cards(anz):
     return cards
 
 def generate_dict():
-    statistics = {"RoyalFlush":0, "Straight Flush":0, "Four of a Kind":0, "Full House":0, "Flush":0, "Straight":0, "Three of a Kind": 0, "Two Pair":0, "One Pair":0, "High Card":0}
+    statistics = {"RoyalFlush":0, "Straight Flush":0, "Four":0, "Full House":0, "Flush":0, "Straight":0, "Three": 0, "Two":0, "One":0, "High Card":0}
     return statistics
 
 def get_color (list):
@@ -43,21 +43,21 @@ def determine_combi (statistics, colors, types):
     if type_max >=2:
         if type_max >=3:
             if type_max ==4:
-                statistics["Four of a Kind"]+=1
+                statistics["Four"]+=1
                 return
             else:
                 full_house_list = [x for x in types if x != max(types, key=types.count)]
                 if full_house_list.count(max(full_house_list, key=full_house_list.count)) == 2:
                     statistics["Full House"]+=1
                     return
-                statistics["Three of a Kind"]+=1
+                statistics["Three"]+=1
                 return
         else:
             two_pair_list = [x for x in types if x != max(types, key= types.count)]
             if two_pair_list.count(max(two_pair_list, key=two_pair_list.count)) == 2:
-                statistics["Two Pair"]+=1
+                statistics["Two"]+=1
                 return
-            statistics["One Pair"]+=1
+            statistics["One"]+=1
             return
     types.sort()
     if types[-1] -4 == types[0]:
