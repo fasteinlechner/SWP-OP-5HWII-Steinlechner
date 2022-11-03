@@ -1,5 +1,6 @@
 import random
 
+# generiert Karten-Dictionary 
 def generate_cards(anz):
     cards = []
     for i in range (anz):
@@ -9,22 +10,24 @@ def generate_cards(anz):
         cards.append(card)
     return cards
 
+# generiert Statistik-Dictionary
 def generate_dict():
     statistics = {"RoyalFlush":0, "Straight Flush":0, "Four":0, "Full House":0, "Flush":0, "Straight":0, "Three": 0, "Two":0, "One":0, "High Card":0}
     return statistics
-
+# Ermittlung der Farbe der Karte
 def get_color (list):
     colors =[]
     for i in list:
         colors.append(i//13)
     return colors
-
+#Ermittlung der Typen der Karte
 def get_types(list):
     types = []
     for i in list:
         types.append(i%13)
     return types
 
+# Ermittlung der Kombinationen der Ziehung
 def determine_combi (statistics, colors, types):
     #Ermittlung der "höchsten" Farbe bzw. Symbols
     color_max = colors.count(max(colors, key = colors.count))
@@ -69,7 +72,7 @@ def determine_combi (statistics, colors, types):
     
             
     
-
+# Main-Methode 
 if __name__ == '__main__':
     stat = generate_dict()
     anz = 100000
