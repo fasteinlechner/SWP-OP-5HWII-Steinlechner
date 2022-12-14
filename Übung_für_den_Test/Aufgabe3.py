@@ -12,8 +12,8 @@ if __name__ == "__main__":
     pow_obj_list.append(obj1)
     pow_obj_list.append(obj2)
     pow_obj_list.append(obj3)
-    a=(2,1)
     pow_list = list(map(lambda x: pow(x.base, x.pot), pow_obj_list))
     print(pow_list)
+    
     
     

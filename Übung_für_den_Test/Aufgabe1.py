@@ -12,8 +12,9 @@ def get_median(items):
         if not swapped:
             break
     print(items)
-    median_index = (len(items)-1)//2
-    return items[median_index]
+    mid = n // 2
+    med = (items[mid] + items[~mid]) / 2
+    return med
 
 def get_average(items):
     sum = 0
@@ -23,13 +24,12 @@ def get_average(items):
 
 if __name__ == '__main__':
     item_list = []
-    for i in range(11):
+    for i in range(3):
         item_list.append(random.randint(0, 10)) 
     print(item_list)
     
     median = get_median(item_list)
     average = get_average(item_list)
-    
     
     print("Median: ", median)
     print("Average: ", average)
