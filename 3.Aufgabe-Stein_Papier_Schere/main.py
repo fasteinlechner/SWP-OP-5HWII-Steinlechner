@@ -23,9 +23,15 @@ def check_computer_win(player, computer):
 
 
 #TODO: Input-Handler
+
+def checkConsoleInput(input):
+    if(input == "EXIT"):
+        gameEnds = True
+    pass
+
 #TODO: Items as Enums
 #TODO: Save Data
-
+#TODO: Menue
 
 
 # Main-Methode
@@ -53,8 +59,10 @@ if __name__ == '__main__':
         elif(itemP == itemComp):
             print("Unentschieden - ihr hattet beide: " + itemList[itemComp])
         else:
+            user_data[username]["Siege"] +=1
             print("Der Computer zog " + itemList[itemComp])
             print("Gratulation - Du hast gewonnen!")
+            
         
     print("ENDE - Spielerstatistik:")    
     print("=========================")
