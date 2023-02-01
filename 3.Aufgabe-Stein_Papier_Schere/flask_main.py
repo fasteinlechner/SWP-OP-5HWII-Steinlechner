@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 
 @app.route('/', methods=["GET", "POST"])
-def hello_world():
+def index():
     user_data = get_user_data()
     if request.method == "POST":
         username = request.form["username"]
