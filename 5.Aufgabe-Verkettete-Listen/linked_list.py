@@ -3,6 +3,8 @@ class ListElement:
         self.data = data
         self.next = None
 
+
+
 class LinkedList:
     
     def __init__(self):
@@ -57,6 +59,7 @@ class LinkedList:
         for current in self:
             pass
         current.next = obj
+        
     def add_at_index(self, index, obj):
         obj = ListElement(obj)
         if index > len(self):
@@ -128,4 +131,8 @@ class LinkedList:
     
     def get_end(self):
         return self.get_element_by_index(len(self)-1).data
+
+
+class DoubleLinkedList(LinkedList):
     
+    pass
