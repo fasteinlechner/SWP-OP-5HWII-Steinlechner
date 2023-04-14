@@ -1,0 +1,1 @@
+{"steini": {"Schere": 2, "Papier": 2, "Stein": 2, "Echse": 3, "Spock": 4, "Siege": 9, "Verloren": 4, "Unentschieden": 0}, "steini04": {"Schere": 1, "Papier": 1, "Stein": 2, "Echse": 1, "Spock": 1, "Siege": 4, "Verloren": 2, "Unentschieden": 0}}
