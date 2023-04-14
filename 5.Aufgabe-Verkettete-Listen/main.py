@@ -1,5 +1,7 @@
 import random
 from linked_list import LinkedList
+from array_list import ArrayList
+from aufwandsklassen import printTable
 
     # METHODS
     # ================
@@ -53,6 +55,23 @@ def main():
     list1.clear()
     print("Liste: ", list1.print_list1())    
 
+    # ===================ARRAYLIST=======================
+    arraylist = ArrayList()
+    arraylist.append(20)
+    print(arraylist)
+    print(len(arraylist))
+    arraylist.append(10)
+    arraylist.append(30)
+    print(len(arraylist))
+    arraylist.remove_by_Index(1)
+    print(arraylist)
+    arraylist.remove(20)
+    print(arraylist)
+    print(len(arraylist))
+    
+    #================AUFWANDSKLASSEN===========================
+    printTable()
+        
 if __name__ == '__main__':
     main()
 

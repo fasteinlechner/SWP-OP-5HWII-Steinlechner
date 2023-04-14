@@ -5,6 +5,7 @@ class ListElement:
 
 
 
+
 class LinkedList:
     
     def __init__(self):
@@ -133,6 +134,3 @@ class LinkedList:
         return self.get_element_by_index(len(self)-1).data
 
 
-class DoubleLinkedList(LinkedList):
-    
-    pass
